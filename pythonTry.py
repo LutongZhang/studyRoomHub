@@ -14,6 +14,9 @@ from getpass import getpass
 #####################instruction: import Excell 两页：sheet1和sheet2在template中 ，，每次最多定14天，，sheet1第一天必须和startDate一致，，output 新excel
 
 
+v = "adbj"
+
+
 #main       
 excelOperator = ExcelOperator()
 
