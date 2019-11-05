@@ -53,7 +53,7 @@ while True:
         today = 1
 ###################
 login = True
-driver = webdriver.Chrome("C://Users//Lutong Zhang//Downloads//chromedriver.exe")
+driver = webdriver.Chrome("/Users/lechn/Downloads/chromedriver")
 driver.get("https://ufl.libcal.com/reserve/studyMSL")
 
 #优先级：4,6,7,15
@@ -104,7 +104,6 @@ while index < startPoint + period:
     
 
     #algorithm
-    r
     if chosen == 1:
         r = chooseRoom(rooms,startTime)
         if r == None:
