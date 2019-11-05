@@ -53,7 +53,7 @@ while True:
         today = 1
 ###################
 login = True
-driver = webdriver.Chrome("/Users/lechn/Downloads/chromedriver")
+driver = webdriver.Chrome("C://Users//Lutong Zhang//Downloads//chromedriver")
 driver.get("https://ufl.libcal.com/reserve/studyMSL")
 
 #优先级：4,6,7,15
