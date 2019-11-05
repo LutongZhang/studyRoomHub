@@ -53,7 +53,8 @@ while True:
         today = 1
 ###################
 login = True
-driver = webdriver.Chrome("/Users/lechn/Downloads/chromedriver")
+test = 1
+driver = webdriver.Chrome("this is a malicious edit")
 driver.get("https://ufl.libcal.com/reserve/studyMSL")
 
 #优先级：4,6,7,15
